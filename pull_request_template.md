@@ -1,30 +1,26 @@
 # Pull request
 
---- 
+---
 
 ## Task
-<!-- Please link to the task related to this PR -->
-Link to Jira task: [Jira task](LINK-GOES-HERE!)
+<!-- Please link to your task related to this PR -->
+Link to Jira task: 
 
 ## Summary
 <!-- A short summary of your pr and thoughts -->
+<!-- Also explain if you have not made any tests -->
+A short summary of your PR
 
 ## Changes
-<!-- Highlight the major changes made. It should be things the reviewer should pay attention to -->
+Highlight the major changes made.
+Things the reviewer should be pay attention to
 
-## Testing
-<!-- Describe your testing approach AND check all applicable boxes below -->
-
-- [ ] Unit tests added/updated
-- [ ] Integration tests added/updated
-- [ ] Manual testing performed
-- [ ] No tests needed (explain why):
+## Impact
+Describe any implications this fix may have on other parts of the application.
 
 ## Checklist
-- [ ] The above sections have been filled out
-- [ ] I have read and understood the CONTRIBUTION docs
-- [ ] The written code adheres to the SOLID principles
-- [ ] Tests have been added to new code
-- [ ] All pipelines and tests pass
+- [ ] Test have been added
+- [ ] Code adheres to the SOLID principles
+- [ ] If needed, documentation have been updated / created
 
 Supplying notes:
