@@ -23,7 +23,6 @@ Link to Jira task: [Jira task](LINK-GOES-HERE!)
 ## Checklist
 - [ ] The above sections have been filled out
 - [ ] I have read and understood the CONTRIBUTION docs
-- [ ] The written code adheres to the SOLID principles
 - [ ] Tests have been added to new code
 - [ ] All pipelines and tests pass
 
