@@ -17,7 +17,7 @@ The PUP team looks forward to your contributions. 🎉
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
 
-## I Have a Question
+## I have a question
 
 > If you want to ask a question, we assume that you have read the available documentation.
 
@@ -29,12 +29,15 @@ If you have a question feel free to reach out to the team:
 If you don't get the wanted response in Slack, try to reach out to one of the team members personally. 
 We do encourage the use of our public team channel, to keep communication stream-lined and public.
 
-## I Want To Contribute
+## I want to contribute
+Before contributing we highly recommend to read our [Way of Code](WAY_OF_CODE.md).
+It will tell you have we structure our code. What testing strategy we follow and similar.
+We don't expect you to have the full knowledge of what is written there, but it will help you with a foundation to build on.
 
-### Reporting Bugs
+### Reporting bugs
 
 <!-- omit in toc -->
-#### Before Submitting a Bug Report
+#### Before submitting a bug report
 
 A good bug report shouldn't leave others needing to chase you up for more information. 
 Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. 
@@ -58,13 +61,13 @@ This section guides you through submitting a feature suggestion for PUP, **inclu
 Following these guidelines will help maintainers and the team to understand your suggestion and find related suggestions.
 
 <!-- omit in toc -->
-#### Before Submitting an Enhancement
+#### Before submitting an enhancement
 
 - Make sure that you are using the latest version.
 - Read the documentation carefully and find out if the functionality is already covered, maybe by an individual configuration.
 
 <!-- omit in toc -->
-#### How Do I Submit a Good Enhancement Suggestion?
+#### How do I submit a good enhancement suggestion?
 
 - Use a **clear and descriptive title** for the issue to identify the suggestion.
 - Please be sure to fill out the template with the related information. It makes it easier for the PUP team to review and evaluate your changes.
