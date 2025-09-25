@@ -48,11 +48,13 @@ Thing that are non-blocking:
 For external reviews (PR's from people outside the PUP team), will **Readability improvements / low readability** be blocking.
 
 ## Naming Conventions
+The general naming conventions we follow in the PUP team. As we only support Scala and Node (typescript), the conventions are for these two languages.
+
 ### Scala:
 - No underscore
 - Classes: PascalCase
 - Files: PascalCase
-- Traits: prefix with T, eg TVehicle (exception to common convention)
+- Traits: prefix with T, e.g. TVehicle (exception to common convention)
 - Abstract classes: prefix with Abstract, AbstractVehicle
 - Package: one word, all lower case
 - Variable (val): camelCase
@@ -64,8 +66,8 @@ For external reviews (PR's from people outside the PUP team), will **Readability
 - No underscores
 - Classes: PascalCase
 - Files: PascalCase
-- Interfaces: prefix with I, eg IVehicle (exception to common convention)
-- Types: prefix with T, eg TVehicle (exception to common convention)
+- Interfaces: prefix with I, e.g. IVehicle (exception to common convention)
+- Types: prefix with T, e.g. TVehicle (exception to common convention)
 - Folders: one word, all lower case
 - Variable : camelCase
 - Functions: camelCase
@@ -86,10 +88,10 @@ A client is usually a low-level wrapper around an external system (like a databa
 
 
 - Naming of classes:
-The most specific part first, eg VehicleMongoRepository
+The most specific part first, e.g. VehicleMongoRepository
 
 - Naming of methods/functions:
-WhatItDoesAndOnWhat, eg findByEmail, saveOrder
+WhatItDoesAndOnWhat, e.g. findByEmail, saveOrder
 
 
 
