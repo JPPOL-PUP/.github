@@ -48,4 +48,50 @@ Thing that are non-blocking:
 For external reviews (PR's from people outside the PUP team), will **Readability improvements / low readability** be blocking.
 
 ## Naming Conventions
-// TODO: will be implemented after meeting
+### Scala:
+- No underscore
+- Classes: PascalCase
+- Files: PascalCase
+- Traits: prefix with T, eg TVehicle (exception to common convention)
+- Abstract classes: prefix with Abstract, AbstractVehicle
+- Package: one word, all lower case
+- Variable (val): camelCase
+- Method: camelCase
+- ENUM: PascalCase, both enum name and values
+- Tests: Suffix with Spec, VehicleSpec.scala
+
+### Node (typescript):
+- No underscores
+- Classes: PascalCase
+- Files: PascalCase
+- Interfaces: prefix with I, eg IVehicle (exception to common convention)
+- Types: prefix with T, eg TVehicle (exception to common convention)
+- Folders: one word, all lower case
+- Variable : camelCase
+- Functions: camelCase
+- Enum: PascalScase for the name and full caps for values
+- Tests: file name . spec, vehicle.spec.ts
+
+
+### Generel:
+A repository is an abstraction over your domain model's data access.
+- Main purpose: Hide the details of data access (e.g., MongoDB, SQL, files) from the domain/business logic.
+- Focus: Expose high-level, domain-specific operations like findUserByEmail, saveOrder, etc.
+- Returns: Domain objects (e.g. User, Order), not database-specific representations (e.g. BSON, JSON).
+
+A client is usually a low-level wrapper around an external system (like a database, API, message queue, etc.).
+- Main purpose: Directly interact with an external service or infrastructure.
+- Focus: Implement the raw, lower-level operations (e.g., execute a Mongo query, call an HTTP API).
+- Returns: Often deals with raw data formats (e.g. BSON documents, HTTP responses), not necessarily domain models.
+
+
+- Naming of classes:
+The most specific part first, eg VehicleMongoRepository
+
+- Naming of methods/functions:
+WhatItDoesAndOnWhat, eg findByEmail, saveOrder
+
+
+
+- Abbreviations:
+No thank you, (exceptions common like AWS, DNS and in comments)
