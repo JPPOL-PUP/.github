@@ -15,7 +15,7 @@ The team have agreed on this priority order for the principles:
 5. OCP
 
 The reason for the order, is that we now it can be hard to follow all principles at the same time. So this order is for us to tell: If it is a hassle to follow all, then focus on these first.
-Questions about SOLID in scala, please talk to the team. And more info on SOLID in React please read here: [link to come](https://dev.to/mikhaelesa/series/24919)
+Questions about SOLID in scala, please talk to the team. And more info on SOLID in React please read here: [Link to SOLID in React](https://dev.to/mikhaelesa/series/24919)
 
 ## Testing
 For testing we use a mix of white box and black box testing. For definition on what white box and black box testing is, see [here]().
